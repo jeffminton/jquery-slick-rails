@@ -32,10 +32,10 @@
 /*.slick-prev:before, .slick-next:before { font-family: "slick"; font-size: 20px; line-height: 1; color: white; opacity: 0.75; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }*/
 
 .slick-prev { left: -25px; }
-.slick-prev:before { content: "\2190"; }
+/*.slick-prev:before { content: "\2190"; }*/
 
 .slick-next { right: -25px; }
-.slick-next:before { content: "\2192"; }
+/*.slick-next:before { content: "\2192"; }*/
 
 /* Dots */
 .slick-slider { margin-bottom: 30px; }
@@ -49,7 +49,7 @@
 .slick-dots li.slick-active button:before { color: black; opacity: 0.75; }
 
 [dir="rtl"] .slick-next {right: auto;left: -25px;}
-[dir="rtl"] .slick-next:before {content: "\2190";}
+/*[dir="rtl"] .slick-next:before {content: "\2190";}*/
 [dir="rtl"] .slick-prev {right: -25px;left: auto;}
-[dir="rtl"] .slick-prev:before {content: "\2192";}
+/*[dir="rtl"] .slick-prev:before {content: "\2192";}*/
 [dir="rtl"] .slick-slide {float: right;}
